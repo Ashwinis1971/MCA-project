@@ -1,1 +1,1 @@
-WebSite with chatbot helps user helps users for tripping :)
+WebSite with chatbot helps user for tripping :)
