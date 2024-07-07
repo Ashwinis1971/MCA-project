@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-text {
+    font-size: 2.25rem; /* equivalent to text-4xl */
+    font-weight: bold;
+    margin-bottom: 2rem; /* equivalent to mb-8 */
+    text-align: center;
+    color: #4f46e5; /* equivalent to text-indigo-800 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: pulse 2s infinite;
+  }
+  
+  .icon {
+    margin-left: 0.5rem; /* equivalent to ml-2 */
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
